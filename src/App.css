@@ -1,0 +1,47 @@
+.paginationButton{
+  width: 40%;
+  height: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.previousButton{
+  background-color: rgb(39, 194, 255);
+  color: white;
+  padding: 2px 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.nextButton{
+  background-color: rgb(16, 181, 247);
+  color: white;
+  padding: 2px 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+/* .paginationActive{
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: underline;
+} */
+.paginationButton a{
+  cursor: pointer;
+  padding: 3px;
+  margin: 0px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  overflow: hidden;
+  color: blue;
+  /* background-color: blue; */
+
+}
+.paginationButton a:hover{
+  background-color: blue;
+  color: white;
+}
+.paginationActive a{
+  background-color: blue;
+  color: white;
+}
